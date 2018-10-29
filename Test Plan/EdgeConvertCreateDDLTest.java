@@ -12,18 +12,17 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 	EdgeTable[] table;
 	
 	public void createDDL(){
-		System.out.println("CreateDDL");
+		System.out.println("createDDL");
 	}
 	public String getSQLString(){
-		System.out.println("GetSQLString");
+
 		return "GetSQLString";	
 	}
 	public String getProductName(){
-		System.out.println("GetProductName");
+
 		return "GetProductName";
 	}
 	public String getDatabaseName(){
-		System.out.println("GetDatabaseName");
 		return "GetDatabaseName";
 	}	
 	
@@ -40,6 +39,9 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 	 	table = ft.getEdgeTables();
 		testObj.tables = table;
 		testObj.fields = field;
+	}
+	public void runner(){
+
 	}
 	@Test	
 	public void testInitialize(){
@@ -58,14 +60,18 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 		System.out.println(testObj.getField(1)); 
 		System.out.println(table[0]);
 		*/
+		System.out.println(table[0]);
+		System.out.println(field[0]);
 	}
 	@Test
 	public void testGetTable(){
+	assertNotNull(testObj.getTable(1));
 	assertEquals("table is equal to first table",table[0],testObj.getTable(1));
 	}
 	@Test
 	public void testGetField(){
-	assertEquals("table is equal to first table",field[0],testObj.getField(1));
+	assertNotNull(testObj.getField(1));
+	assertEquals("table is equal to first field",field[0],testObj.getField(1));
 	}
 	
 }
