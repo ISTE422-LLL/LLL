@@ -12,12 +12,4 @@
 
 7. Press Enter
 
-8. Now you will see the GUI pop up, please click on the File → Open Edge File
-
-9. Now you will see another window pop up, please click on the Desktop/ → milestone4/ →milestone4/ →  Courses.edg → Ok
-
-10. Now, what we expect to see is 
-	STUDENT
-	FACULTY
-	COURSES 
-    In both GUI and Terminal. 
+8. Click on Help tap, you will see two more options
