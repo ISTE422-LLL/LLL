@@ -8,7 +8,7 @@
 
 5. Press Enter
 
-6. Type:   java -cp Milestone4.jar RunEdgeConvert
+6. Type:   java -cp milestone4.jar RunEdgeConvert
 
 7. Press Enter
 
