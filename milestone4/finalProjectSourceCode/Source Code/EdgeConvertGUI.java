@@ -1288,12 +1288,15 @@ public class EdgeConvertGUI {
          if ((ae.getSource() == jmiDTHelpAbout) || (ae.getSource() == jmiDRHelpAbout)) {
             JOptionPane.showMessageDialog(null, "EdgeConvert ERD To DDL Conversion Tool\n" +
                                                 "by Stephen A. Capperell\n" +
-                                                "© 2007-2008");
+                                                " 2007-2008");
          }
          
          //First help screen start
          if ((ae.getSource() == jmiDTHelpAboutProgram)) {
-            JOptionPane.showMessageDialog(null, "About this Project");
+            JOptionPane.showMessageDialog(null, "The purpose of this program is to read the Edge Diagrammer files,\n"+ 
+            									"which is created by Edge Diagrammer. \n"+
+            									"It will transform the contents of the Edge Diagrammer file to form the \n"+
+            									"SQL statements needed to create a table in the MySQL database.");
          }
          //First help screen end
           
